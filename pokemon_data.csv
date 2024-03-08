@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>All Pokemon Dataset | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Data from all Pokemons and their different forms from all 8 generations" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="games,video games,anime and manga,popular culture" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1709859199086;
+    window["pageRequestEndTime"] = 1709859199164;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-3" />
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2", "async-google-font-3"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" src="https://www.google.com/recaptcha/enterprise.js?render=6LcW02cpAAAAAJlaJemsQQEwAiTEYB4aR6FYE_rD&waf=session" async defer></script>
+   <style>.grecaptcha-badge { visibility: hidden; }</style>
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/maca11/all-pokemon-dataset" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=eea5e317692543d9a362" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=67597c5878526280c088" />
+  
+    
+ 
+      <script nonce="dST4REe5G3TwI2CVcrLbXg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="dST4REe5G3TwI2CVcrLbXg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="dST4REe5G3TwI2CVcrLbXg==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/maca11/all-pokemon-dataset" />
+    <meta property="og:title" content="All Pokemon Dataset" />
+    <meta property="og:description" content="Data from all Pokemons and their different forms from all 8 generations" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/1652793/2712525/fb3a41cb36290985fbbd86ad11a2bcc5/dataset-card.jpg?t=2021-10-16-18-09-29" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+            <script nonce="dST4REe5G3TwI2CVcrLbXg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"All Pokemon Dataset","description":"### Context\n\nThis Dataset contains data from all Pokemons and their forms from the eight generations. It includes their number, name, primary and secondary type, abilities, base stats, performance vs other types, etc. Data was scrapped from [serebii]( https://serebii.net/) [bulbapedia]( https://bulbapedia.bulbagarden.net/wiki/Main_Page) and  [pokemon database](https://pokemondb.net/) \n\n\n### Content\n\n- Number: Number of the Pokemon in the National Pokedex\n- Name: Name of the Pokemon\n- Type 1: Primary Type of the Pokemon\n- Type 2: Secondary Type of the Pokemon\n- Abilities: A list that contains the abilities of the Pokemon\n- HP: Base Hit Points stat of the Pokemon\n- Att: Base Attack stat of the Pokemon\n- Def: Base Defense stat of the Pokemon\n- Spa: Base Special Attack stat of the Pokemon\n- Spd: Base Special Defense stat of the Pokemon\n- Spe: Base Speed stat of the Pokemon\n- BST: Sum of all the base stats\n- Mean: Mean of the base stats\n- Standard Deviation: Standard deviation of the base stats\n- Generation: The Generation in which the Pokemon was introduced\n- Experience Type: The Experience Group to which the Pokemon belongs \n- Experience to level 100: Amount of experience the Pokemon needs to level up to 100\n- Final Evolution: Denotes if the Pokemon is a Final Evolution\n- Catch Rate: Catch Rate of the Pokemon\n- Legendary: Denotes if the Pokemon is Legendary\n- Mega Evolution: Denotes if the Pokemon is a Mega Evolution\n- Alolan Form: Denotes if the Pokemon is an Alolan Form\n- Galarian Form: Denotes if the Pokemon is a Galarian Form\n- Against { }: Effectiveness of certain type against the Pokemon\n\n## Update\n\nThree new columns have been added:\n\n- Height: The height of the Pokemon in metres\n- Weight: The weight of the Pokemon in kilograms\n- BMI: The Body mass index of the Pokemon (Weight /  Height^2)\n\n\n","url":"https://www.kaggle.com/maca11/all-pokemon-dataset","version":7,"keywords":["subject, culture and humanities, games","subject, culture and humanities, games, video games","subject, arts and entertainment, comics and animation, anime and manga","subject, culture and humanities, popular culture"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["1652793"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Mario Hernández","url":"https://www.kaggle.com/maca11","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/8562170-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/maca11/all-pokemon-dataset/download?datasetVersionNumber=7","contentSize":"57803 bytes"}],"commentCount":0,"dateModified":"2021-10-20T07:04:01.33Z","discussionUrl":"https://www.kaggle.com/maca11/all-pokemon-dataset/discussion","alternateName":"Data from all Pokemons and their different forms from all 8 generations","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1652793/2712525/fb3a41cb36290985fbbd86ad11a2bcc5/dataset-card.jpg?t=2021-10-16-18-09-29","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":2044},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":14608},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":59}]}</script>
+        
+
+  
+    
+
+  
+    
+
+
+    <script nonce="dST4REe5G3TwI2CVcrLbXg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="dST4REe5G3TwI2CVcrLbXg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" src="/static/assets/runtime.js?v=e91ff05cd0290a59cc61" data-turbolinks-track="reload"></script>
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" src="/static/assets/vendor.js?v=69c95612334f7e211543" data-turbolinks-track="reload"></script>
+  <script nonce="dST4REe5G3TwI2CVcrLbXg==" src="/static/assets/app.js?v=cd0783cfcf433d04a711" data-turbolinks-track="reload"></script>
+    <script nonce="dST4REe5G3TwI2CVcrLbXg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+
+<script nonce="dST4REe5G3TwI2CVcrLbXg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="dST4REe5G3TwI2CVcrLbXg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
